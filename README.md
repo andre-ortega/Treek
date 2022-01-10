@@ -1,5 +1,5 @@
 # Treek
 
-Requires inotify-tools and Linux 'tree' command
+Requires inotify-tools/'tree'
 
-Refresh the displayed filetree upon updates to file structure
+Refreshes tree upon updates
