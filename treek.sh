@@ -11,5 +11,4 @@ $cmd
 while eval "$notify"; do
     clear
     $cmd
-
 done
