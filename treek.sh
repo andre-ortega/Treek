@@ -8,7 +8,7 @@ cmd="tree -C --noreport -I node_modules -L 3 ."
 function run {
 	clear
     printf '\033[1;30m'
-    echo "-= Treek =-"
+    echo "  -= Treek =-"
     printf '\033[0m'
 	$cmd
 }
