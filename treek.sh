@@ -17,5 +17,4 @@ run
 
 while eval "$notify"; do
     run
-    sleep 1
 done
