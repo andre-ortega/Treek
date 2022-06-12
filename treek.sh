@@ -3,7 +3,13 @@
 # install inotifytools
 
 notify="inotifywait @./node_modules -r -e close_write -e access -e delete . &> /dev/null"
-cmd="tree -C --noreport -I node_modules -L 3 ."
+cmd="tree -C -a --noreport \
+    -I node_modules \
+    -I __pycache__ \
+    -I .git \
+    -I .gitignore \
+    -I *.png \
+    -L 3 ."
 
 function run {
 	clear
